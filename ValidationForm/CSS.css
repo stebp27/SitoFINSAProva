@@ -1,0 +1,88 @@
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px black;  
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+fieldset {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255,255,255, 0.6);
+    height: auto;
+    width: 300px;
+    margin: auto;   
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.Inputs {
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0px #ffffff;
+    text-align: center;
+    
+}
+
+.Error {
+    color: red;
+    text-align: center;
+}
+
+select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.SelectDefaults{
+    border: 2px;
+    border-style: inset;
+}
+
+.SelectError{
+    border: 2px;
+    border-style: inset;
+    border-color: red;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin:0 auto;
+}
+
+.InputsDefault {
+    border-style: inset;
+    height: 20px;
+    background-color: rgb(240, 240, 242);
+}
+
+.InputsError {
+    border-style: inset;
+    height: 20px;
+    background-color: rgb(240, 240, 242);
+    border-color: red;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    overflow-y: hidden;
+}
